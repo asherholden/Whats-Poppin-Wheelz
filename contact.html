@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | What's Poppin Wheelz</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="row header__inner">
+
+            <a href="index.html" class="header__logo">
+                <img src="assets/logo.png" alt="What's Poppin Wheelz">
+            </a>
+
+            <nav class="header__nav">
+                <a href="index.html#home" class="header__link">Home</a>
+                <a href="index.html#work" class="header__link">Our Work</a>
+                <a href="index.html#services" class="header__link">Services</a>
+                <a href="index.html#about" class="header__link">About</a>
+                <a href="contact.html" class="header__link">Contact</a>
+            </nav>
+
+            <a href="index.html" class="button button--outline">
+                Back Home
+            </a>
+
+        </div>
+    </header>
+
+
+    <main class="contact-page container">
+
+        <div class="row contact-page__intro">
+            <p class="eyebrow">LET'S TALK CUSTOM</p>
+
+            <h1 class="script-heading">
+                Let's Bring Your Idea To Life!
+            </h1>
+
+            <p>
+                Have a question or want to order custom shirts?
+                Get in touch with us!
+            </p>
+        </div>
+
+
+        <div class="row contact-page__grid">
+
+            <section class="contact-card">
+
+                <h2>Get In Touch</h2>
+
+                <p>
+                    Call or message Travis to discuss your
+                    custom shirt ideas and orders.
+                </p>
+
+                <a href="tel:+12819463804" class="contact-card__link">
+                    <span>PHONE 1</span>
+                    (281) 946-3804
+                </a>
+
+                <a href="tel:+14095986471" class="contact-card__link">
+                    <span>PHONE 2</span>
+                    (409) 598-6471
+                </a>
+
+                <p class="contact__email contact-card__link">
+                    <span>EMAIL</span>
+                   codydaniels045@gmail.com
+                </p>
+
+                <a
+                    href="https://www.facebook.com/profile.php?id=61591328772146"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button button--primary"
+                >
+                    Message on Facebook ↗
+                </a>
+
+            </section>
+
+
+            <section class="contact-card">
+
+                <h2>Our Locations</h2>
+
+                <div class="location">
+
+                    <span>MAIN LOCATION</span>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=1166+County+Rd+3663%2C+Splendora%2C+TX+77327"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        1166 County Rd 3663<br>
+                        Splendora, TX 77327 ↗
+                    </a>
+
+                </div>
+
+
+                <div class="location">
+
+                    <span>ADDITIONAL LOCATION</span>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=309+1st+St+NE%2C+Park+City%2C+MT+59063"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        309 1st St NE<br>
+                        Park City, MT 59063 ↗
+                    </a>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="row footer__inner">
+            <p>
+                © <span id="year"></span>
+                What's Poppin Wheelz & Custom Shirts
+            </p>
+
+            <a href="index.html">Back Home ↑</a>
+        </div>
+    </footer>
+
+
+    <script>
+        document.querySelector("#year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
