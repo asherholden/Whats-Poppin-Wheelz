@@ -234,7 +234,7 @@ body::before {
 ========================= */
 
 #home {
-    height: 90vh;
+    height: calc(100vh - 82px);
 }
 
 .hero {
